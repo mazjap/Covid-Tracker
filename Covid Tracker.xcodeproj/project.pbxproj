@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E971C64255B13D90037A1D7 /* JACCovidController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E971C63255B13D90037A1D7 /* JACCovidController.m */; };
 		0E9D9926255A2AA200343261 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9D9925255A2AA200343261 /* AppDelegate.m */; };
 		0E9D9929255A2AA200343261 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9D9928255A2AA200343261 /* SceneDelegate.m */; };
 		0E9D992C255A2AA200343261 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9D992B255A2AA200343261 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E971C62255B13D90037A1D7 /* JACCovidController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JACCovidController.h; sourceTree = "<group>"; };
+		0E971C63255B13D90037A1D7 /* JACCovidController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JACCovidController.m; sourceTree = "<group>"; };
 		0E9D9921255A2AA200343261 /* Covid Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covid Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E9D9924255A2AA200343261 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0E9D9925255A2AA200343261 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,19 +64,45 @@
 		0E9D9923255A2AA200343261 /* Covid Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				0E9D993E255A2AD900343261 /* Resources */,
+				0E9D9941255A2AE600343261 /* View Controllers */,
+				0E9D9943255A2AF200343261 /* Storyboards */,
+				0E971C62255B13D90037A1D7 /* JACCovidController.h */,
+				0E971C63255B13D90037A1D7 /* JACCovidController.m */,
+			);
+			path = "Covid Tracker";
+			sourceTree = "<group>";
+		};
+		0E9D993E255A2AD900343261 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				0E9D9924255A2AA200343261 /* AppDelegate.h */,
 				0E9D9925255A2AA200343261 /* AppDelegate.m */,
 				0E9D9927255A2AA200343261 /* SceneDelegate.h */,
 				0E9D9928255A2AA200343261 /* SceneDelegate.m */,
-				0E9D992A255A2AA200343261 /* ViewController.h */,
-				0E9D992B255A2AA200343261 /* ViewController.m */,
-				0E9D992D255A2AA200343261 /* Main.storyboard */,
 				0E9D9930255A2AA700343261 /* Assets.xcassets */,
-				0E9D9932255A2AA700343261 /* LaunchScreen.storyboard */,
 				0E9D9935255A2AA700343261 /* Info.plist */,
 				0E9D9936255A2AA700343261 /* main.m */,
 			);
-			path = "Covid Tracker";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0E9D9941255A2AE600343261 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E9D992A255A2AA200343261 /* ViewController.h */,
+				0E9D992B255A2AA200343261 /* ViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0E9D9943255A2AF200343261 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0E9D992D255A2AA200343261 /* Main.storyboard */,
+				0E9D9932255A2AA700343261 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +178,7 @@
 				0E9D9926255A2AA200343261 /* AppDelegate.m in Sources */,
 				0E9D9937255A2AA700343261 /* main.m in Sources */,
 				0E9D9929255A2AA200343261 /* SceneDelegate.m in Sources */,
+				0E971C64255B13D90037A1D7 /* JACCovidController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
